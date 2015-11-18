@@ -20,7 +20,7 @@
 <v t="amd.20150919102541.1"><vh>pelican 與 Markdown</vh></v>
 </v>
 </v>
-<v t="amd.20150919102739.1" a="E"><vh>專案架構</vh>
+<v t="amd.20150919102739.1"><vh>專案架構</vh>
 <v t="amd.20150919113520.1"><vh>@edit .gitignore</vh></v>
 <v t="amd.20150919103428.1"><vh>reveal.js 設定</vh></v>
 <v t="amd.20150919103341.1"><vh>Jupyter 設定</vh>
@@ -36,7 +36,9 @@
 <v t="amd.20150919113957.1"><vh>以下為 pelican 文章</vh></v>
 <v t="amd.20150919124128.1"><vh>@button pelican content</vh></v>
 <v t="amd.20150919114010.1" a="E"><vh>@path pelican\content</vh>
-<v t="amd.20150919114035.1"><vh>@edit 2015cphww1.md</vh></v>
+<v t="leo.20151118144555.1"><vh>@edit 2015cphww1.md</vh></v>
+<v t="leo.20151118144554.1"><vh>@edit 2015cphww2.md</vh></v>
+<v t="leo.20151118144552.1"><vh>@edit 2015cphww3.md</vh></v>
 </v>
 <v t="amd.20150919120205.1"><vh>以下為 reveal 投影片</vh></v>
 <v t="amd.20150913233943.1"><vh>@clean cadpbw1.html</vh>
@@ -282,7 +284,7 @@
 </v>
 </v>
 </v>
-<v t="amd.20150915211341.1" a="E"><vh>@clean simplest.html</vh>
+<v t="amd.20150915211341.1"><vh>@clean simplest.html</vh>
 <v t="amd.20150917085040.1"><vh>檔案說明</vh></v>
 <v t="amd.20150915211351.1" a="E"><vh>html 標註</vh>
 <v t="amd.20150915211351.4" a="E"><vh>body 標註</vh>
@@ -294,6 +296,36 @@
 </v>
 </v>
 <v t="amd.20150915211351.15"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20151118145821.1" a="E"><vh>@clean simplest1.html</vh>
+<v t="leo.20151118145821.2"><vh>檔案說明</vh></v>
+<v t="leo.20151118145821.3" a="E"><vh>html 標註</vh>
+<v t="leo.20151118145821.4" a="E"><vh>body 標註</vh>
+<v t="leo.20151118145821.5" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20151118145821.6" a="E"><vh>div class="slides"</vh>
+<v t="leo.20151118145821.7"><vh>有關我的作業</vh></v>
+<v t="leo.20151118145821.8"><vh>作業任務一</vh></v>
+<v t="leo.20151118145821.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="leo.20151118145821.10"><vh>script</vh></v>
+</v>
+</v>
+</v>
+<v t="leo.20151118145830.1" a="E"><vh>@clean simplest2.html</vh>
+<v t="leo.20151118145830.2"><vh>檔案說明</vh></v>
+<v t="leo.20151118145830.3" a="E"><vh>html 標註</vh>
+<v t="leo.20151118145830.4" a="E"><vh>body 標註</vh>
+<v t="leo.20151118145830.5" a="E"><vh>div class="reveal"</vh>
+<v t="leo.20151118145830.6" a="E"><vh>div class="slides"</vh>
+<v t="leo.20151118145830.7"><vh>有關我的作業</vh></v>
+<v t="leo.20151118145830.8"><vh>作業任務一</vh></v>
+<v t="leo.20151118145830.9"><vh>第3張投影片</vh></v>
+</v>
+</v>
+<v t="leo.20151118145830.10"><vh>script</vh></v>
 </v>
 </v>
 </v>
@@ -2284,6 +2316,163 @@ Diff...
 	&lt;![endif]--&gt;
 &lt;/head&gt;
 @others
+</t>
+<t tx="leo.20151118145821.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20151118145821.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20151118145821.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="leo.20151118145821.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20151118145821.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20151118145821.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151118145821.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151118145821.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;四設計二乙&lt;/h1&gt;
+    &lt;p&gt;40323227紀凱淵&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20151118145821.8">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;筆記&lt;/h1&gt;
+    &lt;p&gt;1.Sketch → Tangent Arc at Point 選擇兩條線所相接的點,可以使那個點形成圓角並且拖曳相切的點可以改變半徑大小.2.New Group → Extrude, or choose the equivalent button from the toolbar.可以使你所畫的圖,往+x方向長料或者從工具列選擇長料.3.Change the extrusion depth by dragging a point on the extruded face.拉動所指定的面可以使所選擇的面身長或縮短4.New Group -&gt; Sketch in 3D(Shift + 3 建立新平面)5.New Group → Sketch in New Workplane 用在孔的時候必須選擇新平面.&lt;/p&gt;
+    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151118145821.9">&lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;這次接觸很特別的繪圖軟體，因為軟體本身容量很小，但卻能畫出許多複雜的零件，雖然操作上有點困難，但卻方便攜帶使用，感到很特別及實用。60分&lt;/p&gt;
+    &lt;p&gt;https://vimeo.com/146085451&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151118145830.1">@language xml
+@tabwidth -4
+@others
+
+</t>
+<t tx="leo.20151118145830.10">&lt;script src="lib/js/head.min.js"&gt;&lt;/script&gt;
+&lt;script src="js/reveal.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;
+    // 啟動 Reveal.
+    Reveal.initialize({
+    });
+&lt;/script&gt;
+	
+</t>
+<t tx="leo.20151118145830.2">&lt;!--
+這個檔案展示了 reveal.js 投影片資料的基本架構
+其中使用 "reveal" class 與 "slides" class 來界定投影片的資料範圍
+而各投影片則以 &lt;section&gt;&lt;/section&gt; 標示
+且支援平行與垂直的投影片配置方法
+--&gt;
+</t>
+<t tx="leo.20151118145830.3">&lt;!doctype html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+&lt;meta charset="utf-8"&gt;
+&lt;title&gt;最簡單的 reveal 超文件&lt;/title&gt;
+&lt;link rel="stylesheet" href="css/reveal.min.css"&gt;
+	&lt;link rel="stylesheet" href="css/theme/default.css" id="theme"&gt;	
+	&lt;!--增加對於 IE 早期版本的支援 --&gt;
+	&lt;!--[if lt IE 9]&gt;
+	&lt;script src="lib/js/html5shiv.js"&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+&lt;/head&gt;
+@others
+</t>
+<t tx="leo.20151118145830.4">&lt;body&gt;
+@others
+&lt;/body&gt;
+</t>
+<t tx="leo.20151118145830.5">&lt;!-- 將整個投影片包在 "reveal" class 中 --&gt;
+&lt;div class="reveal"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151118145830.6">&lt;!-- 將所有投影片包在 "slides" class 中 --&gt;
+&lt;div class="slides"&gt;
+@others
+&lt;/div&gt;
+</t>
+<t tx="leo.20151118145830.7">&lt;!-- 以下為投影片 --&gt;
+&lt;!-- 每一個 section 都代表一張投影片,  --&gt;
+&lt;!-- section 標註中的多 section 標註, 將往下垂直延伸 --&gt;
+&lt;section&gt;
+    &lt;h1&gt;四設計二乙&lt;/h1&gt;
+    &lt;p&gt;40323227紀凱淵&lt;/p&gt;		
+&lt;/section&gt;
+	
+</t>
+<t tx="leo.20151118145830.8">&lt;section id="hw-task-one"&gt;
+    &lt;h1&gt;筆記&lt;/h1&gt;
+    &lt;p&gt;1. 繪製草圖之前，要先選擇要繪製的平面後，再選擇旋轉或是拉伸
+
+2. 如果要加入限制條件，需選取該線段後按著右鍵後，才會出現選單
+
+3. 在標註尺寸時，點選兩端點或者一線段後，按著右鍵後找出選單中所需要的尺寸種類
+
+4. 旋轉材料的時候，要訂定一個旋轉軸，否則繪製的建構線會消失
+&lt;/p&gt;
+    &lt;p&gt;請參考 &lt;a href="http://www.google.com"&gt;Google&lt;/a&gt;
+&lt;/section&gt;
+				
+</t>
+<t tx="leo.20151118145830.9">&lt;section&gt;
+    &lt;h1&gt;心得與自評&lt;/h1&gt;
+    &lt;p&gt;繼solvespace之後，creo又是一套從來沒有接觸過的繪圖軟體，功能比solvespace多了許多，能做各種的圖形，對零件的顏色配置也很方便，可是個人認為也有少部分缺點，右鍵的選單需要按著才會出現，標註有時候也需要使用到右鍵的選單，對於剛開始接觸這套軟體花了很大的心力，光是一個組合件作業就花了大約6個小時研究，也許是習慣了別種軟體後才導致的不適應
+自評和上課心得
+
+creo、solvespace 大致上都知道如何使用了，對於pdf轉檔之後上傳到gitub之後，如何將內容轉至投影片內這部分還想不到如何做，想學的還有很多，要趕緊把握時間了
+評分 : 65
+相關連結
+&lt;/p&gt;
+    &lt;p&gt;可以連結到內部投影片&lt;a href="#/hw-task-one"&gt;作業任務一&lt;/a&gt;
+&lt;/section&gt;
+				
 </t>
 </tnodes>
 </leo_file>
