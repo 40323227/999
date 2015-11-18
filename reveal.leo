@@ -266,7 +266,7 @@
 </v>
 </v>
 </v>
-<v t="ibm.20150918175403.1" a="E"><vh>@clean cpw1.html</vh>
+<v t="ibm.20150918175403.1"><vh>@clean cpw1.html</vh>
 <v t="ibm.20150918175403.2"><vh>檔案說明</vh></v>
 <v t="ibm.20150918175403.3" a="E"><vh>html 標註</vh>
 <v t="ibm.20150918175403.4" a="E"><vh>body 標註</vh>
@@ -299,7 +299,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151118145821.1" a="E"><vh>@clean simplest1.html</vh>
+<v t="leo.20151118145821.1"><vh>@clean simplest1.html</vh>
 <v t="leo.20151118145821.2"><vh>檔案說明</vh></v>
 <v t="leo.20151118145821.3" a="E"><vh>html 標註</vh>
 <v t="leo.20151118145821.4" a="E"><vh>body 標註</vh>
@@ -314,7 +314,7 @@
 </v>
 </v>
 </v>
-<v t="leo.20151118145830.1" a="E"><vh>@clean simplest2.html</vh>
+<v t="leo.20151118145830.1"><vh>@clean simplest2.html</vh>
 <v t="leo.20151118145830.2"><vh>檔案說明</vh></v>
 <v t="leo.20151118145830.3" a="E"><vh>html 標註</vh>
 <v t="leo.20151118145830.4" a="E"><vh>body 標註</vh>
